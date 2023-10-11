@@ -1,0 +1,131 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+  },
+  viewStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 10,
+    marginVertical: 20,
+  },
+  calenderCont: {
+    backgroundColor: '#87CEFA80',
+    height: 40,
+    width: 90,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10,
+    borderRadius: 25,
+    flexDirection: 'row',
+  },
+  iconCont: {
+    backgroundColor: '#87CEFA80',
+    height: 40,
+    width: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10,
+    borderRadius: 25,
+  },
+  headerText: {
+    fontSize: 16,
+    fontWeight: '500',
+  },
+  todayText: {
+    fontSize: 15,
+    marginRight: 5,
+  },
+  headerCont: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 15,
+    height: 65,
+    borderBottomWidth: 1,
+    borderBlockColor: 'grey',
+  },
+  searchCont: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    height: 40,
+    width: 315,
+    paddingHorizontal: 14,
+    borderRadius: 20,
+    backgroundColor: '#FFFFFF',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.27,
+    shadowRadius: 4.65,
+    elevation: 5,
+  },
+  inputStyle: {
+    height: 40,
+    flex: 1,
+    marginLeft: 8,
+    fontSize: 18,
+  },
+  transparent: {
+    flex: 1,
+    backgroundColor: 'rgba(52, 52, 52, 0.8)',
+  },
+  calendarView: {
+    justifyContent: 'flex-end',
+    flex: 1,
+  },
+  listContainer: {
+    // height: 110,
+    paddingHorizontal: 15,
+    borderTopWidth: 1,
+    borderColor: '#2d4150',
+    paddingTop: 20,
+    paddingBottom: 15,
+  },
+  nameView: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 24,
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  name: {
+    fontSize: 15,
+    fontWeight: '800',
+    marginRight: 10,
+  },
+  statusCont: {
+    padding: 6,
+    // width: 70,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+  },
+  statusText: {
+    fontSize: 15,
+    color: '#FFFFFF',
+    fontWeight: '600',
+  },
+  timeText: {
+    marginLeft: 8,
+    fontSize: 16,
+    color: '#000000',
+    fontWeight: '400',
+  },
+  durationCont: {
+    marginTop: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  diparture: {
+    marginLeft: 18,
+  },
+});
